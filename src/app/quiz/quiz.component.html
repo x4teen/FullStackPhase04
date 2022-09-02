@@ -1,0 +1,53 @@
+<h2>Simple Math Quiz</h2>
+<div>
+  <div *ngFor="let q of questions">
+    <div>{{ q.num }}) {{ q.question }}</div>
+    <div>
+      <input
+        type="radio"
+        name="{{ q.num }}"
+        value="{{ q.ans1 }}"
+        (click)="correctAns(q.num, q.ans1)"
+      />
+      {{ q.ans1 }}<br />
+      <input
+        type="radio"
+        name="{{ q.num }}"
+        value="{{ q.ans2 }}"
+        (click)="correctAns(q.num, q.ans2)"
+      />
+      {{ q.ans2 }}<br />
+      <input
+        type="radio"
+        name="{{ q.num }}"
+        value="{{ q.ans3 }}"
+        (click)="correctAns(q.num, q.ans3)"
+      />
+      {{ q.ans3 }}<br />
+      <input
+        type="radio"
+        name="{{ q.num }}"
+        value="{{ q.ans4 }}"
+        (click)="correctAns(q.num, q.ans4)"
+      />
+      {{ q.ans4 }}<br />
+    </div>
+    <br />
+  </div>
+  <br />
+  <input type="submit" name="submit" value="Grade" (click)="gradeTest()" />
+  <hr />
+
+  <div *ngIf="score">
+    <h3>Result</h3>
+
+    <div *ngFor="let a of answerReviews">
+      Question # {{a.num}}. Your answer was {{a.userAns}} and the correct answer was {{a.correctAns}}. <br>
+
+    </div>
+    <h4>
+      You score is {{ score }} / {{ questionsAnswered }} or
+      {{ (score / questionsAnswered) * 100 }}%
+    </h4>
+  </div>
+</div>

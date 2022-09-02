@@ -1,0 +1,14 @@
+{
+    "answers": [
+        {"num": 1, "question":"What is 1+2/2?", "ans": "2"},
+        {"num": 2, "question":"What is 2*3+3*2?", "ans": "12"},
+        {"num": 3, "question":"What is 6/3+5/5*10?", "ans": "12"},
+        {"num": 4, "question":"What is 5*20/4+7*10/5?", "ans": "29"},
+        {"num": 5, "question":"What is 5+7*2?", "ans": "19"},
+        {"num": 6, "question":"What is 2!+3?", "ans": "5"},
+        {"num": 7, "question":"What is 33-2*7", "ans": "19"},
+        {"num": 8, "question":"What is 55+7/7?", "ans": "56"},
+        {"num": 9, "question":"What is 88/8-77/7?", "ans": "0"},
+        {"num": 10, "question":" What is 55/11+7?", "ans": "12"}
+    ]
+}

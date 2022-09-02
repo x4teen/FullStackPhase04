@@ -1,0 +1,14 @@
+{
+    "questions": [
+        {"num": 1, "question":"What is 1+2/2?", "ans1": "5", "ans2": "2","ans3": "8","ans4": "3" },
+        {"num": 2, "question":"What is 2*3+3*2?", "ans1": "10", "ans2": "12","ans3": "11","ans4": "6" },
+        {"num": 3, "question":"What is 6/3+5/5*10?", "ans1": "11", "ans2": "9","ans3": "12","ans4": "10" },
+        {"num": 4, "question":"What is 5*20/4+7*10/5?", "ans1": "27", "ans2": "29","ans3": "31","ans4": "30" },
+        {"num": 5, "question":"What is 5+7*2?", "ans1": "22", "ans2": "19","ans3": "21","ans4": "16" },
+        {"num": 6, "question":"What is 2!+3?", "ans1": "12", "ans2": "11","ans3": "5","ans4": "6" },
+        {"num": 7, "question":"What is 33-2*7?", "ans1": "29", "ans2": "19","ans3": "21","ans4": "62" },
+        {"num": 8, "question":"What is 55+7/7?", "ans1": "22", "ans2": "56","ans3": "33","ans4": "8.86" },
+        {"num": 9, "question":"What is 88/8-77/7?", "ans1": "22", "ans2": "29","ans3": "11","ans4": "0" },
+        {"num": 10, "question":"What is 55/11+7?", "ans1": "12", "ans2": "5","ans3": "11","ans4": "77" }
+    ]
+}
